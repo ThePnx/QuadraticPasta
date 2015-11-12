@@ -1,4 +1,4 @@
-package pl.com.thepnx.model.Impl;
+package pl.com.thepnx.model.impl;
 
 import pl.com.thepnx.model.ExtractedObject;
 

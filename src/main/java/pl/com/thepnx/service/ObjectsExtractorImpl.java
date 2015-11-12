@@ -2,7 +2,7 @@ package pl.com.thepnx.service;
 
 import pl.com.thepnx.model.HtmlBody;
 import pl.com.thepnx.model.ExtractedObject;
-import pl.com.thepnx.model.Impl.ExtractedObjectImpl;
+import pl.com.thepnx.model.impl.ExtractedObjectImpl;
 
 /**
  * Created by pnx on 2015-11-12.

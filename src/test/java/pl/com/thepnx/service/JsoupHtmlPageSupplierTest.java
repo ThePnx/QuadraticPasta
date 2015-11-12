@@ -1,8 +1,7 @@
 package pl.com.thepnx.service;
 
 import org.junit.Test;
-import pl.com.thepnx.exceptions.PageLoadTimeoutException;
-import pl.com.thepnx.service.Impl.JsoupHtmlPageSupplier;
+import pl.com.thepnx.service.impl.JsoupHtmlPageSupplier;
 
 import java.net.MalformedURLException;
 
@@ -12,15 +11,15 @@ import java.net.MalformedURLException;
 
 public class JsoupHtmlPageSupplierTest {
 
+
+    public static final String INVALID_HTML_ADRESS = "invalidHtmlAdress";
+
     @Test(expected = MalformedURLException.class)
     public void shouldThrowMalformedURLException() throws Exception {
         JsoupHtmlPageSupplier sut = new JsoupHtmlPageSupplier();
-        sut.loadPage("rgherfdsfsdf");
+        sut.loadPage(INVALID_HTML_ADRESS);
     }
 
-    @Test(expected = PageLoadTimeoutException.class)
-    public void shouldThrowPageLoadTimeoutException() throws Exception {
-        JsoupHtmlPageSupplier sut = new JsoupHtmlPageSupplier();
-        sut.loadPage("http://bbbbaaaaa.edu.pl");
-    }
+
+
 }

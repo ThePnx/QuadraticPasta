@@ -1,10 +1,10 @@
-package pl.com.thepnx.service.Impl;
+package pl.com.thepnx.service.impl;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import pl.com.thepnx.exceptions.PageLoadTimeoutException;
 import pl.com.thepnx.model.HtmlBody;
-import pl.com.thepnx.model.Impl.JsoupElement;
+import pl.com.thepnx.model.impl.JsoupElement;
 import pl.com.thepnx.service.HtmlPageSupplier;
 
 import java.io.IOException;
