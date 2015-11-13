@@ -1,4 +1,4 @@
-package pl.com.thepnx.service;
+package pl.com.thepnx.service.impl;
 
 import org.junit.Test;
 import pl.com.thepnx.service.impl.JsoupHtmlPageSupplier;
